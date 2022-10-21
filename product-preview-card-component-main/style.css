@@ -22,6 +22,11 @@ body {
     background-color: var(--cream);
 }
 
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -29,30 +34,25 @@ body {
     align-items: center;
 }
 
-.main {
+.main-content {
     width: 65%;
     min-width: 500px;
     max-width: 570px;
     display: flex;
 }
 
-img {
-    object-fit: cover;
-    max-width: 100%;
-}
-
-.content-img {
+.product-photo {
     width: 50%;
 }
 
-.content-img img {
+.product-photo img {
     width: 100%;
     height: 100%;
     border-radius: 10px 0px 0px 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
 }
 
-.content {
+.product-info {
     width: 50%;
     padding: 30px;
     background-color: var(--white);
@@ -60,7 +60,7 @@ img {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.144);
 }
 
-.perfume {
+.overline {
     color: var(--dark-grayish-blue);
     font-size: 12px;
     letter-spacing: 5px;
@@ -74,14 +74,14 @@ img {
     margin-top: 15px;
 }
 
-.main-paragraph {
+.prod-description {
     color: var(--dark-grayish-blue);
     font-size: 14px;
     line-height: 22px;
     margin-top: 25px;
 }
 
-.prices {
+.prod-price {
     margin-top: 15px;
 }
 
@@ -96,12 +96,11 @@ img {
 .old-price {
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
-    text-decoration: line-through;
     font-size: 12px;
     margin-left: 15px;
 }
 
-.button-submit {
+.btn {
     margin-top: 25px;
     background-color: var(--dark-cyan);
     padding: 15px;
@@ -112,12 +111,12 @@ img {
     cursor: pointer;
 }
 
-.button-submit:hover {
+.btn:hover {
     background-color: var(--very-dark-cyan);
     transition: all 0.25s;
 }
 
-.button-submit button {
+.btn button {
     color: var(--white);
     background-color: transparent;
     border: none;
@@ -129,7 +128,7 @@ img {
 }
 
 @media (max-width: 640px) {
-    .main {
+    .main-content {
         width: 100%;
         height: 100%;
         margin-top: 5px;
@@ -138,23 +137,23 @@ img {
         justify-content: center;
     }
 
-    .content-img img {
+    .product-photo img {
         border-radius: 10px 10px 0px 0px;
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
     }
 
-    .content-img picture {
+    .product-photo picture {
         box-shadow: 10px 3px 30px rgba(0, 0, 0, 0.329);
     }
 
-    .content {
+    .product-info {
         border-radius: 0px 0px 10px 10px;
         box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.144);
         padding: 17px 20px;
         margin-bottom: 0;
     }
 
-    .perfume {
+    .overline {
         font-size: 11px;
     }
 
@@ -163,12 +162,12 @@ img {
         margin-top: 10px;
     }
 
-    .main-paragraph {
+    .prod-description {
         margin-top: 10px;
         font-size: 12px;
     }
 
-    .button-submit {
+    .btn {
         margin-top: 15px;
     }
 }
