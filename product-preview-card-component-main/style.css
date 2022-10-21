@@ -36,6 +36,11 @@ body {
     display: flex;
 }
 
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
 .content-img {
     width: 50%;
 }
@@ -135,7 +140,7 @@ body {
 
     .content-img img {
         border-radius: 10px 10px 0px 0px;
-        box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.329);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
     }
 
     .content-img picture {
