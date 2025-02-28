@@ -10,11 +10,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://dudetheduck.github.io/frontend-mentor-challenges/social-links-profile-main/)
+- Live Site URL: (https://dudetheduck.github.io/frontend-mentor-challenges/social-links-profile-main/)
 
 ## My process
 
