@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://dudetheduck.github.io/frontend-mentor-challenges/product-preview-card-component-main/]
+- Live Site URL: [https://dudusantosdev.github.io/frontend-mentor-challenges/product-preview-card-component-main/]
 
 ## My process
 
