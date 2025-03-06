@@ -213,7 +213,7 @@ main {
     }
 
     .result p:first-of-type {
-        padding: 20px 0;
+        padding: 40px;
         font-size: 1em;
     }
 
@@ -224,12 +224,13 @@ main {
 
     .result h2 {
         font-size: 1.3em;
-        margin: 20px 0 10px 0;
+        margin: 40px 0 0 0;
     }
 
     .summary {
         margin-left: 0;
         margin-top: -20px;
+        padding-top: 20px;
         border-radius: 0;
         box-shadow: none;
     }
@@ -240,6 +241,6 @@ main {
     }
 
     .btn-continue {
-        margin: 10px 0 20px 0;
+        margin: 40px 0 00px 0;
     }
 }
